@@ -1,0 +1,19 @@
+<% include header ; %>
+<h1>Hello from express...!!</h1>
+
+<div class="container">
+ 
+</div>
+
+
+
+<ul>
+    <% rows.forEach(function(row){ %>
+        <li>
+                <%= row.id ; %>  - <%= row.text ; %>
+        </li>
+        <% }); %>
+</ul>
+</body>
+
+</html>
